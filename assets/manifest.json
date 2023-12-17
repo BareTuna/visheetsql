@@ -1,6 +1,6 @@
 {
-  "name": "egui Template PWA",
-  "short_name": "egui-template-pwa",
+  "name": "visheetsql PWA",
+  "short_name": "visheetsql-pwa",
   "icons": [
     {
       "src": "./icon-256.png",

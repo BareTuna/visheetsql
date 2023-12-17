@@ -13,7 +13,7 @@ fn main() -> eframe::Result<()> {
         ..Default::default()
     };
     eframe::run_native(
-        "eframe template",
+        "visheetsql",
         native_options,
         Box::new(|cc| Box::new(visheetsql::TemplateApp::new(cc))),
     )
@@ -30,7 +30,7 @@ fn main() {
     wasm_bindgen_futures::spawn_local(async {
         eframe::WebRunner::new()
             .start(
-                "the_canvas_id", // hardcode it
+                "visheetsql_html_canvas", // hardcode it
                 web_options,
                 Box::new(|cc| Box::new(visheetsql::TemplateApp::new(cc))),
             )

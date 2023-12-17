@@ -1,4 +1,4 @@
-var cacheName = 'egui-template-pwa';
+var cacheName = 'visheetsql-pwa';
 var filesToCache = [
   './',
   './index.html',
